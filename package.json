@@ -1,0 +1,13 @@
+{
+  "author": {
+    "name" : "593304",
+    "email" : "adam.593304@gmail.com",
+    "url" : "https://github.com/593304"
+  },
+  "name": "smart-home",
+  "version": "0.0.1",
+  "license": "ISC",
+  "homepage": "https://github.com/593304/smart-home",
+  "dependencies": {
+  }
+}

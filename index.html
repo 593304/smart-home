@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smart Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="./img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#00d1b2">
+		<meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#00d1b2">
+		<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="./js/script.js"></script>
+		<link rel="stylesheet" href="./css/bulma-switch.min.css" />
+		<link rel="stylesheet" href="./css/bulma-slider.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<section class="section">
+			<div class="tile is-ancestor">
+				<div class="tile is-vertical is-parent box">
+					<div class="tile is-child">
+						<p class="title">Living room</p>
+					</div>
+					<div class="tile is-parent is-vertical">
+						<div class="tile is-parent">
+							<div class="tile is-child controls" idx="9">
+								<p class="subtitle">Ceiling light</p>
+								<div class="columns is-vcentered">
+									<div class="column is-1">
+										<div class="field">
+											<input id="lr-cl--p" type="checkbox" class="switch switch-power" onclick="toggle(9)">
+											<label for="lr-cl--p"></label>
+										</div>
+									</div>
+									<div class="column is-4 is-offset-1">
+										<input id="lr-cl--b" class="slider is-fullwidth is-primary-thumb is-brightness slider-brightness" step="1" min="0" type="range" onchange="brightness(9)">
+									</div>
+									<div class="column is-4 is-offset-1">
+										<input id="lr-cl--c" class="slider is-fullwidth is-primary-thumb is-color slider-color" step="1" min="50" max="100" type="range" onchange="color(9)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tile is-parent">
+							<div class="tile is-child controls" idx="24">
+								<p class="subtitle">Shelf lights</p>
+								<div class="columns is-vcentered">
+									<div class="column is-1">
+										<div class="field">
+											<input id="lr-sl--p" type="checkbox" class="switch switch-power" onclick="toggle(24)">
+											<label for="lr-sl--p"></label>
+										</div>
+									</div>
+									<div class="column is-4 is-offset-1">
+										<input id="lr-sl--b" class="slider is-fullwidth is-primary-thumb is-brightness slider-brightness" step="1" min="0" type="range" onchange="brightness(24)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--div class="tile is-parent">
+							<div class="tile is-child">
+								<p class="subtitle">Air purifier</p>
+								<button class="button is-primary">Inverted</button>
+							</div>
+						</div>
+						<div class="tile is-parent">
+							<div class="tile is-child">
+								<p class="subtitle">Air conditioner</p>
+								<button class="button is-primary">Inverted</button>
+							</div>
+						</div-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="tile is-ancestor">
+				<div class="tile is-parent box">
+					<div class="tile is-child">
+						<p class="title">Bedroom</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

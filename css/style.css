@@ -1,0 +1,11 @@
+input[type=range].is-primary-thumb::-webkit-slider-thumb{background:#00d1b290}
+input[type=range].is-primary-thumb::-moz-range-thumb{background:#00d1b290}
+input[type=range].is-primary-thumb::-ms-thumb{background:#00d1b290}
+input[type=range].slider.is-brightness::-moz-range-track{background-image:linear-gradient(to right,#999,#f9f9f9)}
+input[type=range].slider.is-brightness::-webkit-slider-runnable-track{background-image:linear-gradient(to right,#999,#f9f9f9)}
+input[type=range].slider.is-brightness::-ms-track{background-image:linear-gradient(to right,#999,#f9f9f9) !important}
+input[type=range].slider.is-brightness::-ms-fill-lower,input[type=range].slider.is-success::-ms-fill-upper{background-image:linear-gradient(to right,#999,#f9f9f9)}
+input[type=range].slider.is-color::-moz-range-track{background-image:linear-gradient(to right,#bfd3ff,#f9f9f9,#ff8603)}
+input[type=range].slider.is-color::-webkit-slider-runnable-track{background-image:linear-gradient(to right,#bfd3ff,#f9f9f9,#ff8603)}
+input[type=range].slider.is-color::-ms-track{background-image:linear-gradient(to right,#bfd3ff,#f9f9f9,#ff8603) !important}
+input[type=range].slider.is-color::-ms-fill-lower,input[type=range].slider.is-success::-ms-fill-upper{background-image:linear-gradient(to right,#bfd3ff,#f9f9f9,#ff8603)}
